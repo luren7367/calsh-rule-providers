@@ -1,1 +1,1 @@
-# calsh-rule-providers
+gemini网页和APP的请求域名
