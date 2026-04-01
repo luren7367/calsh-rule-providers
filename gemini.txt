@@ -1,0 +1,20 @@
+payload:
+  # Gemini网页入口
+  - DOMAIN-SUFFIX,gemini.google.com
+
+  # 核心AI接口（最关键）
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+  # Google API（强烈建议包含）
+  - DOMAIN-SUFFIX,googleapis.com
+
+  # 登录认证
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,oauth2.googleapis.com
+
+  # 静态资源（网页需要）
+  - DOMAIN-SUFFIX,gstatic.com
+
+  # 移动端可能用到
+  - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,play.googleapis.com
