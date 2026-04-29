@@ -1,8 +1,18 @@
 payload:
-  - DOMAIN-SUFFIX,google.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,ggpht.com
+  # --- Gemini 核心业务 (精确匹配) ---
+  - DOMAIN,gemini.google.com
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,alkaliminerals-pa.googleapis.com
+  - DOMAIN,proactivebackend-pa.googleapis.com
+  - DOMAIN,notebooklm.google.com
+  # --- 认证与账户相关 ---
+  - DOMAIN,accounts.google.com
+  - DOMAIN,myaccount.google.com
+  # --- 静态资源与内容分发 (精确匹配) ---
+  - DOMAIN,ssl.gstatic.com
+  - DOMAIN,www.gstatic.com
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,apis.google.com
+  - DOMAIN,content-autofill.googleapis.com
